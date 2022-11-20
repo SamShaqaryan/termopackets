@@ -8,6 +8,7 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { HomeComponent } from './layouts/home/home.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { AssortmentComponent } from './pages/assortment/assortment.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AssortmentComponent } from './pages/assortment/assortment.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
